@@ -1,0 +1,71 @@
+
+body{
+    background-color:whitesmoke;
+}
+.container {
+    position: relative;
+    max-width: 100%; /* Maximum width */
+    margin: 0 auto; /* Center it */
+    height: auto;
+  }
+  
+  .container .content {
+    position: absolute; /* Position the background text */
+    bottom: 0; /* At the bottom. Use top:0 to append it to the top */
+    background: rgb(0, 0, 0); /* Fallback color */
+    background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+    color: #f1f1f1; /* Grey text */
+    width: 70%; /* Full width */
+    padding: 10px; /* Some padding */
+    /* top: 0; */
+  }
+  a:link,a:visited{
+    background-color: grey;
+    text-decoration: none;
+    display: block;
+    border: orchid 1px;
+    width: 200px;
+    color: black;
+    margin-bottom: 1px;
+    margin-top: 1px;
+    text-align: center;
+
+}
+a:hover,a:active{
+    background-color: whitesmoke;
+    color: darkcyan;}
+h2{
+    font-size: larger;
+    background-color: plum;
+    color: black;
+    width: fit-content;
+    
+}
+p{
+    
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+}
+h3{
+    font-size: larger;
+    background-color:skyblue;
+    color: black;
+    width: fit-content;
+    
+}
+h4{
+    font-size: larger;
+    background-color:steelblue;
+    color: black;
+    width: fit-content;
+    
+}
+img{
+    border: black solid;
+}
+@media(max-width:600px){
+    #main,#sidebar{
+      width: 100%;
+      float: none;
+      border: none;
+    }
